@@ -35,8 +35,28 @@ button {
   font-weight: 125%;
 }
 
-form {
+#form-habits {
   display: flex;
+  padding: 0 48px;
+}
+
+.habits {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.habit {
+  border: 1px red;
+
+  width: 64px;
+  height: 64px;
+
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .days {
@@ -53,6 +73,13 @@ form {
 
 .day div {
   margin-bottom: 8px;
+
+  font-family: "Roboto Mono";
+  font-size: 20px;
+  line-height: 125%;
+
+  color: #a1a1aa;
+  text-align: center;
 }
 
 input {
